@@ -58,7 +58,7 @@ The library provides three main functions for producing results for data analysi
 
 #### Efficiently computing persistent homology
 
-```
+```c++
 #include "forman/formangradient.h"
 
 using namespace std;
@@ -80,7 +80,7 @@ The result is the list of persistence pairs written in a txt file (persistence_p
 
 #### Visualizing critical points and the discrete Morse complex
 
-```
+```c++
 #include "forman/formangradient.h"
 
 using namespace std;
