@@ -24,6 +24,8 @@ cd build
 cmake ..
 ```
 
+Before running the `./SimplForman3D` executable remember to copy the two files `tables/table2D.txt` and `tables/table3D.txt` in same folder of `./SimplForman3D`.
+
 ## Input Format
 
 The library assumes to receive in input an OFF file modified for handling non-manifold simplicial complexes. The accepted format indicate the number of vertices and top simplices in the simplicial complex.
